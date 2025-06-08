@@ -4,9 +4,8 @@ ports:
       entryPoint:
         to: websecure
         scheme: https
-#Dashboard Enable doesn't appear to be working with sub sub domains
 ingressRoute:
   dashboard:
     enabled: true
     entryPoints: [web, websecure]
-    matchRule: Host(`traefik.echopossum.com`)
+    matchRule: Host(`traefik.kube-dev.echopossum.com`)
