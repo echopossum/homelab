@@ -1,0 +1,2 @@
+/k8s/cert-manager/issuer-secret.yml
+/k8s/cert-manager/cluster-issuer.yml

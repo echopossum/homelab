@@ -12,3 +12,5 @@ spec:
       services:
         - name: nginx-test
           port: 80
+  tls:
+    secretName: nginx-test-certificate-secret
