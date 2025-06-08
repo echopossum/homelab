@@ -9,3 +9,5 @@ ingressRoute:
     enabled: true
     entryPoints: [web, websecure]
     matchRule: Host(`traefik.kube-dev.echopossum.com`)
+    tls:
+      secretName: traefik-dashboard-secret
